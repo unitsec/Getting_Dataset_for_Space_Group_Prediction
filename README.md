@@ -55,7 +55,7 @@ This repository contains the code for generating three kinds of datasets (ULBD, 
 **Steps to test generalization ability:**
 
 - Run `test_cubic/tetragonal_label_by_extinction.py` to evaluate predicting accuracies.
-- Change the test set and model used within the scripts to observe the variations in accuracy.
+- Change the test set and model used in the scripts to observe the variations in accuracy.
 
 ---
 
