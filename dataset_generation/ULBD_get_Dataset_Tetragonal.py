@@ -81,8 +81,8 @@ for sg_num in wanted_spacegroup:
     count = 0
     # ab_list = np.random.uniform(a_min,a_max,20)
     # c_list = np.random.uniform(a_min,a_max,20)
-    for length1 in np.arange(a_min, a_max, 0.5):
-        for length2 in np.arange(a_min, a_max, 0.5):
+    for length1 in np.arange(a_min, a_max, 0.05):
+        for length2 in np.arange(a_min, a_max, 0.05):
             if length2 == length1:
                 continue
             a = length1
@@ -158,6 +158,6 @@ for sg_num in wanted_spacegroup:
     print(f"{count} datas has been generated")
 
 #save_h5('standard_dataset_tetragonal_random_30intlorentz.h5',samples,labels)
-save_h5('standard_trainset_tetragonal_random_30intlorentz.h5',samples_train,labels_train)
-save_h5('standard_validationset_tetragonal_random_30intlorentz.h5',samples_validation,labels_validation)
-save_h5('standard_testset_tetragonal_random_30intlorentz.h5',samples_test,labels_test)
+save_h5('standard_trainset_tetragonal_30intlorentz.h5',samples_train,labels_train)
+save_h5('standard_validationset_tetragonal_30intlorentz.h5',samples_validation,labels_validation)
+save_h5('standard_testset_tetragonal_30intlorentz.h5',samples_test,labels_test)
