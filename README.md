@@ -46,7 +46,7 @@ This repository contains the code for generating three kinds of datasets (ULBD, 
 
 **Steps to validate predictions:**
 
-- Run `test_cubic.py` or `test_tetragonal.py` to obtain the top-1 to top-5 accuracies of the model.
+- Run `test_cubic/tetragonal/trigonal_hexagonal.py` to obtain the top-1 to top-5 accuracies of the model.
 
 ---
 
