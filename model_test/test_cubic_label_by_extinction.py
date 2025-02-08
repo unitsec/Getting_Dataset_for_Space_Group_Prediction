@@ -2,7 +2,7 @@ import h5py
 import numpy as np
 import tensorflow as tf
 from tensorflow import keras
-from keras import datasets, layers, models, metrics, callbacks
+from keras import layers
 import matplotlib.pyplot as plt
 import seaborn as sns
 
